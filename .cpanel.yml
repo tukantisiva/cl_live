@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
-    - /repositories/cl_live * $DEPLOYPATH
+    -/bin/cp -R cl_live $DEPLOYPATH
   
