@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/zrore96woqp0/public_html/
     - /repositories/cl_live -R cl_live $DEPLOYPATH
