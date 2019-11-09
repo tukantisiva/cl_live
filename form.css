@@ -5,7 +5,7 @@ html
   width:100%;
 }
 body{    
-  background:url('/img/slider/7.jpg') no-repeat;
+  /*background:url('/img/slider/7.jpg') no-repeat;*/
   background-size: cover;
   height:100%;
 
