@@ -1,12 +1,14 @@
 
 $(function()
 {
+	$('#bodyofcontact').show();
     function after_form_submitted(data) 
     {
         if(data.result == 'success')
         {
             $('form#reused_form').hide();
             $('#success_message').show();
+		$('#bodyofcontact').hide();
             $('#error_message').hide();
         }
         else
