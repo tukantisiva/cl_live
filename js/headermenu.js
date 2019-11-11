@@ -203,9 +203,9 @@ var htmlvar= '<header class="header-three">';
 						htmlvar+='<li><a href="AboutOnlineFullStackCourse.html">About Online Fullstack Classes</a></li>';
                                            htmlvar+='</ul>';
                                         htmlvar+='</li>';
-                                   htmlvar+=' <li><a href="#">Find Jobs</a></li>';
+                                   htmlvar+=' <li><a href="findjob.html">Find Jobs</a></li>';
 
-                                    htmlvar+='<li><a href="contact.html">Contact</a></li>';
+                                    htmlvar+='<li><a href="contact.html">Contact Us</a></li>';
 
                                 htmlvar+='</ul>';
 
