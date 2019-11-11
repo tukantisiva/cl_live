@@ -1,5 +1,5 @@
 
-   $(document).ready(function()
+ $(function(){
 		     {
       $("#headermenu").load("headermenu.html"); 
     });
