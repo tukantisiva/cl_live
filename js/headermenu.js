@@ -87,7 +87,7 @@ var htmlvar= '<header class="header-three">';
 
                                             htmlvar+='<li><a href="findjob.html">Find Jobs</a></li>';
 
-                                            htmlvar+='<li><a href="formpage.html">Contact Us</a></li>';
+                                            htmlvar+='<li><a href="contact.html">Contact Us</a></li>';
 
 
                                         htmlvar+='</ul>';
