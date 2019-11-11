@@ -14,7 +14,7 @@ var htmlvar= '<header class="header-three">';
 
                             htmlvar+='<div class="logo">';
 
-                                htmlvar+='<a href="index.html"><img src="img\logo\logo.png" alt="commitlearners"></a>';
+                                htmlvar+='<a href="index.html"><img src="img/logo/logo.png" alt="commitlearners"></a>';
 
                             htmlvar+='</div>';
 
