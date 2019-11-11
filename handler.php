@@ -17,7 +17,7 @@ $validator = $pp->getValidator();
 $validator->fields(['name','email','phone'])->areRequired()->maxLength(50);
 $validator->fields(['phone'])->areRequired()->maxLength(14);
 $validator->field('email')->isEmail();
-$validator->field('phone')->isNumeric();
+
 $validator->field('comments')->maxLength(6000);
 
 
