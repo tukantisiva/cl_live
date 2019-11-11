@@ -1,4 +1,4 @@
-$( window ).onload(function() {
+$( window ).load(function() {
 		     
       $("#headermenu").load("headermenu.html"); 
     });
