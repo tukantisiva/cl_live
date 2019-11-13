@@ -1,13 +1,13 @@
 $(function()
 {
-	$('#bodyofstudent').show();
+	$('#bodyoftutor').show();
     function after_form_submitted(data) 
     {
         if(data.result == 'success')
         {
-            $('form#studentform').hide();
+            $('form#tutorform').hide();
             $('#success_message').show();
-		$('#bodyofstudent').hide();
+		$('#bodyoftutor').hide();
             $('#error_message').hide();
         }
         else
@@ -37,7 +37,7 @@ $(function()
         }//else
     }
 
-	$('#studentform').submit(function(e)
+	$('#tutorform').submit(function(e)
       {
         e.preventDefault();
 
