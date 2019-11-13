@@ -36,6 +36,7 @@
         <script src="js\vendor\modernizr-2.8.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <script src="js\studentformsubmit.js"></script>
     </head>
     <body>
 <!--<div id="preloader">-->
@@ -69,8 +70,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                                                <form method="post" action="studentemail.php" class="form-rounded">
+			 <div id="error_message" style="width:100%; height:100%; display:none; ">
+                        <h4>
+                            Error
+                        </h4>
+                        Sorry there was an error sending your form.
+                    </div>
+                    <div id="success_message"
+                        style="width:100%; height:100%; display:none; ">
+			    <h2>Thank you for your request </h2><br/>
+
+<h6>We appreciate you contacting us. One of our colleague will get back in touch with you soon!</h6><br/>
+
+<h6>Have a great day!</h6><br/><br/>
+			    <a href="index.html"><button class="btn btn-info btn-primary ml-md-5">Back to Home</button></a>
+			    
+                    </div>
+                    <div class="col-md-8" id="bodyofstudent">
+                                                <form method="post" id="studentform" action="" class="form-rounded">
                         	<div class="row">
 	                            <div class="form-group col-12 col-lg-6">
 	                               <label>Full Name</label>
